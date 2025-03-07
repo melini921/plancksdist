@@ -43,7 +43,7 @@ wavelengths_nm = wavelengths * 1e9
 # Plot the black body spectrum
 plt.figure(figsize=(10, 6))
 plt.plot(wavelengths_nm, intensities, color='blue')
-plt.xlabel("Wavelength (nm)", fontsize=14)
+plt.xlabel("Wavelength (nm)", fontsize=18)
 plt.ylabel("Spectral Radiance (W sr$^{-1}$ m$^{-3}$)", fontsize=14)
 plt.title(f"Black Body Spectrum (T = {temperature} K)", fontsize=16)
 plt.grid(True)
