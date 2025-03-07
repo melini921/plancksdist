@@ -40,7 +40,7 @@ intensities = planck_law(wavelengths, temperature)
 # Convert wavelength to nanometers
 wavelengths_nm = wavelengths * 1e9
 
-# Plot the black body spectrum
+# Plot the black body spectrum ttttttt
 plt.figure(figsize=(10, 6))
 plt.plot(wavelengths_nm, intensities, color='blue')
 plt.xlabel("Wavelength (nm)", fontsize=18)
